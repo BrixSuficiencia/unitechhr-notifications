@@ -2,9 +2,9 @@ const express = require('express');
 const notificationsController = require('../controllers/notificationsController');
 const router = express.Router();
 
-// Routes for applicant notifications
+/* // Routes for applicant notifications
 router.post('/applicant/:applicantId/notifications', notificationsController.addApplicantNotification);
-router.get('/applicant/:applicantId/notifications', notificationsController.getApplicantNotifications);
+router.get('/applicant/:applicantId/notifications', notificationsController.getApplicantNotifications); */
 
 // Routes for developer profile notifications
 router.post('/developers/:developerId/notifications', notificationsController.addDeveloperProfileNotification);

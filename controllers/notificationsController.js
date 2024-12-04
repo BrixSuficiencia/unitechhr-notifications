@@ -46,7 +46,7 @@ const getEmployeeNotifications = async (req, res) => {
   }
 };
 
-// Add notification for an applicant
+/* // Add notification for an applicant
 const addApplicantNotification = async (req, res) => {
   const { applicantId } = req.params;
   const notificationData = req.body;
@@ -87,7 +87,7 @@ const getApplicantNotifications = async (req, res) => {
     console.error('Error fetching notifications:', error);
     res.status(500).send('Error fetching notifications');
   }
-};
+}; */
 
 // Add notification for a developer's profile
 const addDeveloperProfileNotification = async (req, res) => {
